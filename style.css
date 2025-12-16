@@ -1,0 +1,35 @@
+
+/* Algemene functies voor in de website. Deze kunnen zovaak herhaald worden indien nodig. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: black;
+    --second-bg-color: rgba(124, 124, 124, 0.582);
+    --text-color:white;
+    --main-color: ;
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body { 
+    background: var(--bg-color);
+    color:var(--text-color);
+}
+
+/* ?? */
+
+
+/* ?? */
+

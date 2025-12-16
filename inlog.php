@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link stylesheet="stylesheet" href="style.css">
+   <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
-    <nav> 
-        
-    </nav>
-    <section>
+    <header>
+
+    </header>
+    <section class="sectionForm">
         <h1> Login form </h1>
-            <form>
-
+            <form action="" method="POST">
                      <!-- Voer hier uw gebruikersnaam in. -->
-                <label for="fname">Username:</label> <br>
-                 <input type="text" id="uname" name="uname"><br><br>
+                <label for="uName">Username:</label> <br>
+                <input type="text" id="uName" name="userName" minlength="6" maxlength="64" required><br><br>
 
-                     <!-- Voer hier uw wachtwoord in. -->
-                 <label for="fname">Password:</label> <br>
-                 <input type="password" id="pname" name="pname"><br><br>
+                    <!-- Voer hier uw wachtwoord in. -->
+                <label for="password">Password:</label> <br>
+                <input type="password" id="password" name="password" minlength="6" maxlength="64" required><br><br>
 
-            <form> <br>  
-            <a href="register.php">No account? Register Here.</a> <br><br>
-            <button>
-                Login
-            </button>
+                    <!-- een link om naar de register page te gaan. -->
+                <a href="register.php">No account? Register Here.</a> <br><br>
+
+                    <!-- een button om in te loggen op de webpage. -->
+                <button type="submit">
+                    Login
+                </button>
+            </form>      
     </section>
 </body>
 </html>

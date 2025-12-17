@@ -7,9 +7,9 @@
    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
-    <header>
-
-    </header>
+    <nav> 
+        
+    </nav>
     <section class="sectionForm">
         <h1>Registration Form</h1>
             <form action="" method="POST">

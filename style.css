@@ -1,5 +1,5 @@
 
-/* Algemene functies voor in de website. Deze kunnen zovaak herhaald worden indien nodig. */
+/* Algemene functies voor in de website, Deze kunnen zovaak herhaald worden indien nodig. */
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +12,14 @@
 }
 
 :root {
-    --bg-color: black;
-    --second-bg-color: rgba(124, 124, 124, 0.582);
-    --text-color:white;
-    --main-color: ;
+    --bg-color: #7d1fc2;
+    --second-bg-color: #4B0082;
+    --text-color: white;
+    --second-text-color:#fc0896;
 }
+
+
+/* Alle selectors die worden gebruikt in de website, Deze worden vaak niet herhaald maar met uitzondering kan het. */
 
 html {
     font-size: 60%;
@@ -28,8 +31,10 @@ body {
     color:var(--text-color);
 }
 
-/* ?? */
+
+/* Algemene Classes voor in de website, Deze kunnen zovaak herhaald worden indien nodig. */
 
 
-/* ?? */
+
+/* Algemene ID voor in de website, Deze kunnen maar één keer gebruikt worden in de website. */
 
